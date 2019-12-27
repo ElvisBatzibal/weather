@@ -9,9 +9,9 @@
   text-align: center;
 }
 
-.card{
+/* .card{
   margin:  0 auto;
-  background: linear-gradient(to bottom, red, pink );
+  background: linear-gradient(to bottom, blue, lightblue );
   width: 200px;
   height: 280px;
   display: flex;
@@ -19,7 +19,7 @@
   justify-content: space-around ;
   align-items: center;
   border-radius: 15px;
-}
+} */
 .city{
   font-family: 'Merriweather', sans-serif;
   font-size: 1.6em ;
