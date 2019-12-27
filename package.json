@@ -23,7 +23,7 @@
     "vue-html": "html",
     "razor": "html",
     "plaintext": "jade"
-},
+  },
   "eslintConfig": {
     "extends": "react-app"
   },
