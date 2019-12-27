@@ -1,11 +1,16 @@
 import React from 'react'
 import styled from '@emotion/styled'
+import Location from './location';
+import Icon from './icon';
+import Condition from './condition';
 
 const WeatherCard=(props) =>
 {
+   const red = 100;
+
    const Card = styled.div`
    margin:  0 auto;
-   background: linear-gradient(to bottom, blue, lightblue );
+   background: linear-gradient(to bottom, rgba(${red},200,200), lightblue );
    width: 200px;
    height: 280px;
    display: flex;
@@ -16,14 +21,10 @@ const WeatherCard=(props) =>
    `
 
     return (
-    <Card className="card">
-        <div className="location">
-            <h1 className="city">Sydney</h1>
-            <h3 className="country">AU</h3>
-        </div>
-        <img className="icon" src="./img/icon-weather.png" alt="Weather Icon"></img>
-        <h1 className="temp">20 *C</h1>
-        <h3 className="condition">Clouds</h3>
+    <Card>
+       <Location/>
+       <Icon/>
+       <Condition/>       
     </Card>
     );
 }

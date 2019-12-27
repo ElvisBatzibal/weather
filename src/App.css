@@ -5,9 +5,9 @@
  color: white;
 }
 
-.location{
+/* .location{
   text-align: center;
-}
+} */
 
 /* .card{
   margin:  0 auto;
@@ -20,25 +20,29 @@
   align-items: center;
   border-radius: 15px;
 } */
-.city{
+
+/* .city{
   font-family: 'Merriweather', sans-serif;
   font-size: 1.6em ;
-}
-.country{
+} */
+
+/* .country{
   font-family: 'Fira Sans', sans-serif;
   font-size: 1.1rem;
-}
-.temp
+} */
+
+/* .temp
 {
   font-family: 'Fira Sans', sans-serif;
   font-size: 2.5rem;
   font-weight: 200;
-}
+} */
 
-.condition{
+/* .condition{
   font-family: 'Merriweather', sans-serif;
   font-size: 1.2rem;
-}
-.icon{
+} */
+
+/* .icon{
   width: 80px;
-}
+} */

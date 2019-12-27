@@ -18,6 +18,12 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact",
+    "vue-html": "html",
+    "razor": "html",
+    "plaintext": "jade"
+},
   "eslintConfig": {
     "extends": "react-app"
   },
